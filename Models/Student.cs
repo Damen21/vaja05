@@ -11,6 +11,7 @@ public class Student
     [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
     public DateTime EnrollmentDate { get; set; }
+   // create date of birth field  
 
     public ICollection<Enrollment>? Enrollments { get; set; }
 }
